@@ -1,0 +1,16 @@
+
+ssh -t git@github.com
+
+git config --global user.name "wx5223"
+git config --global user.email "wx5223@gmail.com"
+
+git init
+git add readme
+git commit -m 'comment'
+git remote add origin git@github.com:wx5223/main.git
+
+
+
+git push -u origin master
+
+git pull git@github.com:wx5223/main.git
